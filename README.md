@@ -1,1 +1,1 @@
-# github-finder by Alex
+# GitHub Finder by Alex
