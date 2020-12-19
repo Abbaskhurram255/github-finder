@@ -28,6 +28,10 @@ a {
   text-decoration: none;
 }
 
+#ab {
+  font-weight: 500;
+}
+
 a:hover {
   color: #666;
 }

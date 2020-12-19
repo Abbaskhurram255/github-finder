@@ -13,7 +13,7 @@ import AlertState from './context/alert/AlertState';
 import './App.css';
 
 const App = () => {
-  useState(null);
+  const [alert, setAlert] = useState(null);
 
   return (
     <GithubState>
@@ -27,7 +27,7 @@ const App = () => {
                 <Route exact path="/" component={Home} />
                 <Route exact path="/about" component={About} />
                 <Route exact path="/user/:login" component={User} />
-                <Route component={NotFound} />
+                <Route component={notFound} />
               </Switch>
             </div>
           </div>

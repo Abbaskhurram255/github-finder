@@ -9,6 +9,7 @@ import About from './components/pages/About';
 
 import GithubState from './context/github/GithubState';
 import AlertState from './context/alert/AlertState';
+import Footer from './components/layout/Footer';
 
 import './App.css';
 
@@ -30,6 +31,7 @@ const App = () => {
                 <Route component={NotFound} />
               </Switch>
             </div>
+            <Footer></Footer>
           </div>
         </Router>
       </AlertState>

@@ -9,11 +9,12 @@ import About from './components/pages/About';
 
 import GithubState from './context/github/GithubState';
 import AlertState from './context/alert/AlertState';
+import Footer from './components/layout/footer'
 
 import './App.css';
 
 const App = () => {
-  useState(null);
+  const [alert, setAlert] = useState(null);
 
   return (
     <GithubState>

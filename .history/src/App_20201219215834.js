@@ -13,7 +13,7 @@ import AlertState from './context/alert/AlertState';
 import './App.css';
 
 const App = () => {
-  useState(null);
+  const [alert, setAlert] = useState(null);
 
   return (
     <GithubState>
