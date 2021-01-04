@@ -20,7 +20,9 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "eslintConfig": {
+    "keywords": [],
+    "author": "Alex aka Khurram <abbaskhurram255@gmail.com> (https://abbaskhurram255.github.io)",
+    "eslintConfig": {
     "extends": "react-app"
   },
   "browserslist": {
